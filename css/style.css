@@ -124,7 +124,7 @@ body {
     max-height: auto;
     object-fit: cover;
     background: #e7e9e8;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .item15 img,
@@ -135,7 +135,7 @@ body {
     max-height: auto;
     object-fit: contain;
     background: #f5f6f6;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 
