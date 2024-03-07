@@ -36,7 +36,6 @@ body{
 
 
 .item1{
-    
     grid-area: MacBookAir;
     display: flex;
     align-items: center;
@@ -91,8 +90,48 @@ body{
 }
 .item4{
     grid-area: MacBookPro;
-   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
 }
+
+.item-gift-card {
+    color: #e66e53; 
+}
+
+.item-macbook-pro {
+    color: rgb(0, 0, 0); 
+}
+
+
+.item-price {
+    text-align: center; 
+}
+
+
+.item-price{
+    text-align: center; 
+}
+
+.item-education-discount{
+    color: rgb(68, 75, 68); 
+}
+
+.imagen-pequena {
+    width: 260px; 
+    height: 130px; 
+}
+
+.item4 img,
+.item4 p,
+.item4 b {
+    display: block;
+    margin-bottom: 10px; 
+}
+
+
 
 @media( width < 800px){
     
